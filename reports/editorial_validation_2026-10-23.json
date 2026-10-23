@@ -1,0 +1,11 @@
+{
+  "scope": "Editorial/provenance corrections only; no refitting or retraining in this run",
+  "tests_passed": 21,
+  "third_party_warnings": 3,
+  "numerical_outputs_unchanged": true,
+  "AI_tools_disclosed": [
+    "ChatGPT",
+    "Codex",
+    "Claude"
+  ]
+}

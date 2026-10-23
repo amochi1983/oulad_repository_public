@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the original OULAD dataset when reusing the analyses."
+type: software
+title: "OULAD early engagement and area deprivation: reproducible analysis code"
+version: "2026.10.23"
+repository-code: "https://github.com/amochi1983/OULAD_Git"
+authors:
+  - family-names: "Ochi"
+    given-names: "Aymen"
+    orcid: "https://orcid.org/0009-0009-2633-3341"
+    affiliation: "University of Hafr Al Batin, Hafr Al Batin, Saudi Arabia"
+license: MIT
+keywords:
+  - OULAD
+  - learning analytics
+  - area deprivation
+  - early engagement
+  - reproducibility
+abstract: "Analysis code for observational engagement-success associations across residential-area deprivation groups in the original 2013-2014 OULAD cohorts, with student-cluster inference and historical student-disjoint temporal prediction. Dataset and data-derived contents have separate CC BY 4.0 terms."

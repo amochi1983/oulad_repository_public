@@ -1,0 +1,75 @@
+{
+  "encoding": {
+    "gender": {
+      "1.0": "F",
+      "0.0": "M"
+    },
+    "region": {
+      "12.0": "Ireland",
+      "11.0": "North Region",
+      "9.0": "Yorkshire Region",
+      "5.0": "Wales",
+      "3.0": "South East Region",
+      "8.0": "East Midlands Region",
+      "4.0": "West Midlands Region",
+      "7.0": "South West Region",
+      "2.0": "North Western Region",
+      "10.0": "London Region",
+      "6.0": "South Region",
+      "0.0": "East Anglian Region",
+      "1.0": "Scotland"
+    },
+    "highest_education": {
+      "0.0": "No Formal quals",
+      "4.0": "Post Graduate Qualification",
+      "3.0": "HE Qualification",
+      "1.0": "Lower Than A Level",
+      "2.0": "A Level or Equivalent"
+    },
+    "imd_band": {
+      "0.0": "0-10%",
+      "1.0": "10-20",
+      "9.0": "90-100%",
+      "8.0": "80-90%",
+      "4.0": "40-50%",
+      "7.0": "70-80%",
+      "6.0": "60-70%",
+      "5.0": "50-60%",
+      "2.0": "20-30%",
+      "3.0": "30-40%"
+    },
+    "age_band": {
+      "2.0": "55<=",
+      "1.0": "35-55",
+      "0.0": "0-35"
+    },
+    "disability": {
+      "1.0": "Y",
+      "0.0": "N"
+    },
+    "final_result": {
+      "0.0": "Withdrawn",
+      "1.0": "Fail",
+      "3.0": "Distinction",
+      "2.0": "Pass"
+    }
+  },
+  "offset_by_presentation": {
+    "2013B": 0,
+    "2013J": 242,
+    "2014B": 365,
+    "2014J": 607
+  },
+  "rows": 1718983,
+  "raw_daily_rows": 1808119,
+  "matched_dates": 1718983,
+  "matched_click_rows": 1718983,
+  "course_day_range": [
+    -25,
+    269
+  ],
+  "duplicate_extra_rows": 7056,
+  "missing_enrolments": 4419,
+  "stream_files_sha_equal": true,
+  "wang_lexical_byte_equal": true
+}

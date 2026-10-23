@@ -1,0 +1,47 @@
+{
+  "python": "3.12.14",
+  "analysis_stage": "exploratory additions after Claude-assisted internal computational audit, 22 October 2026",
+  "cohort_sha256": "d23e007186d9bcbd87c9a8366a193fc995fe8c7d69f425b42ac1748e4769b350",
+  "english_regions": [
+    "East Anglian Region",
+    "East Midlands Region",
+    "London Region",
+    "North Region",
+    "North Western Region",
+    "South East Region",
+    "South Region",
+    "South West Region",
+    "West Midlands Region",
+    "Yorkshire Region"
+  ],
+  "english_n": 21352,
+  "english_known_IMD_wald_p": 0.8895216592350922,
+  "missing_IMD_by_region": {
+    "North Region": 674,
+    "Ireland": 250,
+    "South Region": 44,
+    "West Midlands Region": 38,
+    "Scotland": 11,
+    "South West Region": 4,
+    "Yorkshire Region": 4,
+    "North Western Region": 3
+  },
+  "known_IMD_nonenglish_share": 0.2232075471698113,
+  "share_at_least_21_active_days": {
+    "0\u201330%": 0.1067754522880454,
+    "30\u201370%": 0.11441144114411442,
+    "70\u2013100%": 0.12487736510161178,
+    "Missing": 0.20622568093385213
+  },
+  "raw_date_outcome_disagreements": 1,
+  "registered_by_day0": {
+    "n": 32314,
+    "unadjusted_least_minus_most_gap": 0.15924849948570396
+  },
+  "model_formulas": {
+    "full": "success ~ C(imd_group)*active_proportion + C(gender)+C(age_band)+C(highest_education)+C(disability)+C(region)+num_of_prev_attempts+studied_credits+C(context)",
+    "context_only": "success ~ C(imd_group)*active_proportion + C(context)",
+    "no_education_no_prev_attempts": "success ~ C(imd_group)*active_proportion + C(gender)+C(age_band)+C(disability)+C(region)+studied_credits+C(context)",
+    "no_region": "success ~ C(imd_group)*active_proportion + C(gender)+C(age_band)+C(highest_education)+C(disability)+num_of_prev_attempts+studied_credits+C(context)"
+  }
+}

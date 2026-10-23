@@ -1,0 +1,8 @@
+| final_result   | inconsistent_withdrawal   |   enrolments |   unique_students |
+|:---------------|:--------------------------|-------------:|------------------:|
+| Distinction    | False                     |         3024 |              2903 |
+| Fail           | False                     |         7043 |              6803 |
+| Fail           | True                      |            9 |                 9 |
+| Pass           | False                     |        12361 |             11881 |
+| Withdrawn      | False                     |        10063 |              9073 |
+| Withdrawn      | True                      |           93 |                93 |

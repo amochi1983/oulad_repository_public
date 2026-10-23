@@ -1,0 +1,4 @@
+analysis,n,unique_students,converged,interaction_chi2,interaction_df,interaction_p
+primary_success,27528,24835,True,0.7831761262756707,2,0.6759825187317399
+conditional_success,22410,21094,True,0.49205526223117807,2,0.7819006198405865
+subsequent_withdrawal,27528,24835,True,11.996023490743326,2,0.0024836854698504452

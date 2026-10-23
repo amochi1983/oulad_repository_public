@@ -1,0 +1,6 @@
+| imd_group   |   enrolments |   unique_students |   successes |   success_rate |   mean_active_proportion |   median_clicks |   zero_activity |   ci_low |   ci_high | ci_method                                                  |
+|:------------|-------------:|------------------:|------------:|---------------:|-------------------------:|----------------:|----------------:|---------:|----------:|:-----------------------------------------------------------|
+| 0–30%       |         8457 |              7649 |        4009 |       0.474045 |                 0.355986 |             150 |             495 | 0.463394 |  0.485487 | student-cluster percentile bootstrap (1000; seed=20261005) |
+| 30–70%      |        10908 |              9897 |        6208 |       0.569124 |                 0.377531 |             172 |             463 | 0.559879 |  0.578425 | student-cluster percentile bootstrap (1000; seed=20261005) |
+| 70–100%     |         7135 |              6384 |        4432 |       0.621163 |                 0.398158 |             195 |             247 | 0.608747 |  0.632197 | student-cluster percentile bootstrap (1000; seed=20261005) |
+| Missing     |         1028 |               905 |         729 |       0.709144 |                 0.499479 |             315 |              19 | 0.67978  |  0.738586 | student-cluster percentile bootstrap (1000; seed=20261005) |

@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+statsmodels
+scikit-learn
+duckdb
+pyarrow
+xgboost
+lightgbm
+shap
+matplotlib
+requests
+pytest
+tabulate
+nbformat
+ipykernel
+nbclient

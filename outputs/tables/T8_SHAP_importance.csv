@@ -1,0 +1,61 @@
+feature,mean_absolute_SHAP
+cat__highest_education_Lower Than A Level,0.21778178
+num__active_days,0.14128153
+cat__code_module_DDD,0.13406877
+cat__imd_group_0–30%,0.12491167
+cat__presentation_type_B,0.12401013
+num__days_since_activity,0.10917826
+num__precourse_clicks,0.09198161
+num__clicks_week_3,0.09046861
+cat__code_module_GGG,0.089416154
+cat__code_module_FFF,0.086066134
+num__active_weeks,0.08536065
+num__clicks_week_2,0.08457399
+cat__code_module_BBB,0.0636086
+num__active_proportion,0.0488138
+num__num_of_prev_attempts,0.0399641
+num__studied_credits,0.03758829
+cat__gender_F,0.028392628
+num__days_week_3,0.02701314
+num__clicks_week_4,0.02515975
+num__engagement_sd,0.023420189
+cat__age_band_0-35,0.01841832
+num__days_week_2,0.016535956
+cat__highest_education_A Level or Equivalent,0.013273404
+cat__imd_group_70–100%,0.01015307
+num__days_week_4,0.009217345
+num__resources_accessed,0.009060588
+cat__code_module_AAA,0.008607662
+cat__region_South East Region,0.0077441144
+num__clicks_per_active_day,0.006626573
+num__log_clicks,0.0065345922
+num__clicks_week_1,0.0064238785
+cat__highest_education_No Formal quals,0.0058622006
+cat__imd_group_Missing,0.0054648975
+cat__region_South West Region,0.0047711288
+cat__imd_group_30–70%,0.004735885
+cat__region_North Western Region,0.0025757877
+num__engagement_slope,0.0024731643
+cat__age_band_35-55,0.0022139975
+cat__presentation_type_J,0.0018304124
+cat__disability_N,0.0017296255
+num__recent_change,0.00030505873
+cat__region_Scotland,0.0
+cat__region_South Region,0.0
+cat__region_Wales,0.0
+cat__region_West Midlands Region,0.0
+cat__region_Yorkshire Region,0.0
+cat__region_North Region,0.0
+cat__region_London Region,0.0
+cat__code_module_EEE,0.0
+cat__region_Ireland,0.0
+cat__highest_education_Post Graduate Qualification,0.0
+cat__gender_M,0.0
+num__precourse_active_days,0.0
+cat__age_band_55<=,0.0
+cat__region_East Midlands Region,0.0
+num__activity_diversity,0.0
+cat__region_East Anglian Region,0.0
+cat__disability_Y,0.0
+cat__highest_education_HE Qualification,0.0
+num__days_week_1,0.0

@@ -1,0 +1,18 @@
+| imd_group   | final_result   |   enrolments |   unique_students |
+|:------------|:---------------|-------------:|------------------:|
+| 0–30%       | Distinction    |          622 |               608 |
+| 0–30%       | Fail           |         2661 |              2564 |
+| 0–30%       | Pass           |         3387 |              3263 |
+| 0–30%       | Withdrawn      |         1787 |              1644 |
+| 30–70%      | Distinction    |         1204 |              1163 |
+| 30–70%      | Fail           |         2713 |              2635 |
+| 30–70%      | Pass           |         5004 |              4823 |
+| 30–70%      | Withdrawn      |         1987 |              1862 |
+| 70–100%     | Distinction    |          998 |               949 |
+| 70–100%     | Fail           |         1513 |              1457 |
+| 70–100%     | Pass           |         3434 |              3289 |
+| 70–100%     | Withdrawn      |         1190 |              1103 |
+| Missing     | Distinction    |          199 |               182 |
+| Missing     | Fail           |          145 |               137 |
+| Missing     | Pass           |          530 |               500 |
+| Missing     | Withdrawn      |          154 |               139 |

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "raw_hashes_valid": true,
+  "requested": {
+    "download": false,
+    "rebuild_features": true,
+    "refit_association": true,
+    "retrain_core": true
+  },
+  "elapsed_seconds": 317.75,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "evidence": "Observed full-run status and contemporaneous numerical report; runtime rounded to0.01s. clean_repository_execution.log and clean_repository_status.json record successful execution."
+}

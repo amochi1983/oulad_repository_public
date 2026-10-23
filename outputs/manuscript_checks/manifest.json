@@ -1,0 +1,14 @@
+{
+  "post_analysis": true,
+  "seed": 20261005,
+  "raw_unknown_withdrawal": 93,
+  "eligible_unknown_withdrawal": 93,
+  "excluded_unknown_registration": 0,
+  "BH_family_size": 12,
+  "student_disjoint_splits": true,
+  "raw_registration_and_outcomes_verified": true,
+  "pooled_design_columns": 79,
+  "pooled_design_rank": 79,
+  "source_sha256": "cf374bf02448745638ab02866108bde35b1f1ef38f588bc1142ad8db1bf47a24",
+  "week4_sha256": "d23e007186d9bcbd87c9a8366a193fc995fe8c7d69f425b42ac1748e4769b350"
+}

@@ -1,0 +1,5 @@
+# Provenance evidence — verification performed 18 October 2026
+
+This is a dated evidence snapshot, not a claim that the full discovery audit was rerun on 22 October. Official v1 and all seven local raw CSVs match freshly downloaded authoritative bytes. UCI is semantically equal, with some serialization differences. Derived packages do not introduce new cohorts.
+
+lineage_results.json retains an initial numeric-sort serialization mismatch for Wang; stream_lineage_refined.json and the independent checks resolve it by lexical student-ID sorting and establish final byte equality. This is not a contradiction about table values. The full parent discovery audit, downloadable source packages and scripts are retained locally under C:/Oulad/reanalysis_latest_oulad; the large derivatives and publisher literature files are not bundled here. download_manifest.csv identifies acquisition URLs and hashes, not files all present in this portable archive. It includes explicit failed accesses. Original scientific reproduction is through the repository's own README and reproduce.py.

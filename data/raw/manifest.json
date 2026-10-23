@@ -1,0 +1,114 @@
+[
+  {
+    "file": "anonymisedData.zip",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:25.757360+00:00",
+    "size": 46750706,
+    "sha256": "90dda45037939953f979072fa70a809ebe07e90ec783c408762af7698a3825ec",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "courses.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:25.946251+00:00",
+    "size": 526,
+    "sha256": "4f16eee7454b15e109b0a21a0e43be820e6846ed6f9301bb7feb5ab5ad737a75",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "studentInfo.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:25.949973+00:00",
+    "size": 3461652,
+    "sha256": "7e6f3e474a5eee00639d2a414a6c7e928745823c2d2c2563ca1780145f99b0d6",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "studentRegistration.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:25.975844+00:00",
+    "size": 1109984,
+    "sha256": "0d32676285372aaf2e7a80304e5b274b4fba24313e2ca4c04317225e1ec90170",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "studentVle.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:25.981758+00:00",
+    "size": 453836331,
+    "sha256": "52668253d876c5becbcb72185977152700cecab2942aca807fecc3dd54b937f0",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "vle.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:27.785228+00:00",
+    "size": 260126,
+    "sha256": "d1b28303dea802ad87b4484e1196e878e06824850b9a4fe8aa34693439fe87e9",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "assessments.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:27.807416+00:00",
+    "size": 8200,
+    "sha256": "8cc738fb88ad760571d6f2a23059bfee0ffcae3bcd830514c9cbd5c6d5a046f1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  },
+  {
+    "file": "studentAssessment.csv",
+    "source_url": "https://ndownloader.figshare.com/files/8606371",
+    "metadata_url": "https://api.figshare.com/v2/articles/5081998",
+    "download_date": "2026-10-05T05:32:27.818594+00:00",
+    "size": 5690310,
+    "sha256": "fd5320786328d05af841ee7dd4b5871b9dada3b9fe9d6a3642b2f42635510a6e",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "citation": "Kuzilek, Jakub; Hlosta, Martin; Zdrahal, Zdenek (2017). OULAD: Open University Learning Analytics Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5081998.v1"
+  }
+]

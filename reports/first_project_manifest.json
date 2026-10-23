@@ -1,0 +1,10 @@
+{
+  "reporting_extension": true,
+  "primary_model_unchanged": true,
+  "window_week": 4,
+  "bootstrap": 1000,
+  "seed": 20261005,
+  "engagement_OR_increment": 0.25,
+  "plan_sha256": "ea9889aefba50b72bb4f0f492916f21a3279f4b526d756a9723ac1c37e200d9d",
+  "script_sha256": "9f4df68697c183e7154515742dd79d168c87a11378622dfba3995a2c40e8fe93"
+}

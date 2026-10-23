@@ -1,0 +1,16 @@
+{
+  "rows": 1718983,
+  "students": 25149,
+  "enrolments": 28174,
+  "all_keys_in_original": true,
+  "label_mismatches": 0,
+  "imd_mismatches": 0,
+  "extra_duplicate_date_rows": 7056,
+  "date_matches": 1718983,
+  "click_total_matches": 1718983,
+  "stream_sha256": {
+    "stream_2024.csv": "df6b6e18c3c113088e7d21417c6ed9839639e6f3073c060912141788990434d4",
+    "stream_2026.csv": "df6b6e18c3c113088e7d21417c6ed9839639e6f3073c060912141788990434d4"
+  },
+  "wang_lexical_sha_equal": true
+}

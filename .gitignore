@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.duckdb
+data/processed/matplotlib_cache/
+outputs/models/association.pkl
+*.pyc
+
+# Local acquisition/runtime state, not source-of-truth provenance
+data/raw/*.part
+data/raw/last_acquisition.json
+.DS_Store
+Thumbs.db
+.env
+.env.*

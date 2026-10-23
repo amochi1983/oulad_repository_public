@@ -1,0 +1,12 @@
+{
+  "stream_unique_days": 1711927,
+  "source_known_imd_daily_rows": 1711927,
+  "retained_enrolments": 28174,
+  "missing_enrolments_explained_by_missing_imd_or_no_vle": true,
+  "naive_early_click_overcount_total": 17238.0,
+  "naive_early_click_overcount_enrolments": 533,
+  "score_missing": 1603391,
+  "score_nonmissing": 115592,
+  "score_rows_matching_raw_submission_day_and_score": 107034,
+  "score_rows_checked": 115592
+}

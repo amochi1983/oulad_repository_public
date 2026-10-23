@@ -1,0 +1,22 @@
+{
+  "software_author": "Aymen Ochi",
+  "license": "MIT",
+  "data_license": "CC BY 4.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "command": "python reproduce.py --download",
+  "exit_code": 0,
+  "tests_passed": 19,
+  "dependency_warnings": 3,
+  "raw_hashes_checked": 8,
+  "pinned_manifest_preserved": true,
+  "original_program_asts_unchanged": 21,
+  "scientific_files_byte_unchanged": 167,
+  "split_assignments_unchanged": true,
+  "raw_files_in_upload": false,
+  "git_history_in_upload": false,
+  "code_author_headers_all_valid": true,
+  "full_model_retraining_this_packaging_run": false,
+  "fresh_dependency_installation_tested": false,
+  "publicly_uploaded": false
+}

@@ -1,0 +1,118 @@
+{
+  "scope": "Fresh training/tuning/refit/calibration for three manuscript logistic blocks only; no new research experiment, no tree/window search, no historical chronology proof.",
+  "repository_root": "C:\\Oulad\\submission_2026-10-18\\repository",
+  "reference_root": "C:\\Oulad\\submission_2026-10-18\\repository",
+  "results": [
+    {
+      "block": "B",
+      "n": 15722,
+      "students": 14526,
+      "chosen_C": 0.3,
+      "saved_chosen_C": 0.3,
+      "validation_auc": 0.6643457574097229,
+      "saved_validation_auc": 0.6643457574097229,
+      "auc": 0.6301169205523582,
+      "saved_auc": 0.6301169205523582,
+      "brier": 0.2357941972311552,
+      "saved_brier": 0.2357941972311552,
+      "max_probability_difference": 0.0,
+      "mean_probability_difference": 0.0,
+      "auc_ci_lower": 0.6225854243192249,
+      "auc_ci_upper": 0.6391608264732506,
+      "saved_auc_ci_lower": 0.6225854243192249,
+      "saved_auc_ci_upper": 0.6391608264732506,
+      "bootstrap_interval_match_within_1e_10": true,
+      "match_within_1e_10": true
+    },
+    {
+      "block": "C",
+      "n": 15722,
+      "students": 14526,
+      "chosen_C": 0.3,
+      "saved_chosen_C": 0.3,
+      "validation_auc": 0.7640095159152746,
+      "saved_validation_auc": 0.7640095159152746,
+      "auc": 0.7314381848722273,
+      "saved_auc": 0.7314381848722273,
+      "brier": 0.20627332205197565,
+      "saved_brier": 0.20627332205197565,
+      "max_probability_difference": 0.0,
+      "mean_probability_difference": 0.0,
+      "auc_ci_lower": 0.7228557822922996,
+      "auc_ci_upper": 0.7385850220848472,
+      "saved_auc_ci_lower": 0.7228557822922996,
+      "saved_auc_ci_upper": 0.7385850220848472,
+      "bootstrap_interval_match_within_1e_10": true,
+      "match_within_1e_10": true
+    },
+    {
+      "block": "D",
+      "n": 15722,
+      "students": 14526,
+      "chosen_C": 0.3,
+      "saved_chosen_C": 0.3,
+      "validation_auc": 0.7657693982775818,
+      "saved_validation_auc": 0.7657693982775818,
+      "auc": 0.7315983072681445,
+      "saved_auc": 0.7315983072681445,
+      "brier": 0.20621071643478303,
+      "saved_brier": 0.20621071643478303,
+      "max_probability_difference": 0.0,
+      "mean_probability_difference": 0.0,
+      "auc_ci_lower": 0.7235215364433489,
+      "auc_ci_upper": 0.7384185512911335,
+      "saved_auc_ci_lower": 0.7235215364433489,
+      "saved_auc_ci_upper": 0.7384185512911335,
+      "bootstrap_interval_match_within_1e_10": true,
+      "match_within_1e_10": true
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "contrast": "C minus B",
+      "lower": 0.09359492937891505,
+      "upper": 0.10792103327130832,
+      "saved_lower": 0.093594929378915,
+      "saved_upper": 0.1079210332713083,
+      "match_within_1e_10": true
+    },
+    {
+      "contrast": "D minus C",
+      "lower": -0.0010756387942797623,
+      "upper": 0.0014182253537991856,
+      "saved_lower": -0.0010756387942797,
+      "saved_upper": 0.0014182253537991,
+      "match_within_1e_10": true
+    }
+  ],
+  "bootstrap_replicates": 200,
+  "split_sizes": {
+    "fit": {
+      "n": 6250,
+      "students": 6185
+    },
+    "validation": {
+      "n": 2086,
+      "students": 2062
+    },
+    "calibration": {
+      "n": 2085,
+      "students": 2062
+    },
+    "test": {
+      "n": 15722,
+      "students": 14526
+    }
+  },
+  "source_and_input_sha256": {
+    "cohort": "d23e007186d9bcbd87c9a8366a193fc995fe8c7d69f425b42ac1748e4769b350",
+    "splits": "11a905430c59850c1517d5532d4ab162625868181966bab4e6ad42afa5cfb745",
+    "predictions": "12e01b66205a99fa86c3633cc4a3d0c72e8005625b439c977fa1cef9af408301",
+    "performance": "2a1b08e06cafac134f01d565f4338ae270a222b7c26181eee5bef9bc603f03b4",
+    "source_ml": "6d46391aa7e369969ac4db09ce257758dbfc1ef4c54c117ae2e921dcab8d6621",
+    "config": "0c855dc6b7add66e3f50c9c878ae5a6239529e5a7688d2ce0f64b1f960ddb31a"
+  },
+  "seed": 20261005,
+  "runtime_seconds": 3.637385129928589,
+  "all_match_within_1e_10": true
+}

@@ -1,0 +1,8 @@
+field,mismatches,one_to_one
+gender,0,True
+region,0,True
+highest_education,0,True
+imd_band,0,True
+age_band,0,True
+disability,0,True
+final_result,0,True

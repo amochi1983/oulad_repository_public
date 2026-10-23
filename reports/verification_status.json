@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "raw_hashes_valid": true,
+  "requested": {
+    "download": false,
+    "rebuild_features": false,
+    "refit_association": false,
+    "retrain_core": false,
+    "post_audit": true
+  },
+  "elapsed_seconds": 57.26629376411438,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

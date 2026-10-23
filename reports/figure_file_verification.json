@@ -1,0 +1,50 @@
+[
+  {
+    "figure": 1,
+    "source": "adjusted_engagement_success_OR",
+    "width": 1947,
+    "height": 1169,
+    "mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "bytes": 113110
+  },
+  {
+    "figure": 2,
+    "source": "adjusted_success_probabilities",
+    "width": 1818,
+    "height": 1169,
+    "mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "bytes": 167702
+  },
+  {
+    "figure": 3,
+    "source": "adjusted_success_gaps",
+    "width": 1818,
+    "height": 1169,
+    "mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "bytes": 146474
+  },
+  {
+    "figure": 4,
+    "source": "module_engagement_success_OR",
+    "width": 2194,
+    "height": 1654,
+    "mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "bytes": 180642
+  }
+]

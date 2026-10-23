@@ -1,0 +1,70 @@
+full {'analysis': 'full', 'fit_n': 27528, 'active_days': 21, 'gap': np.float64(0.07587648340146935), 'ci_low': np.float64(0.05342383435120043), 'ci_high': np.float64(0.09832913245173827), 'reference_n': 27528}
+context_only {'analysis': 'context_only', 'fit_n': 27528, 'active_days': 21, 'gap': np.float64(0.10078561837875333), 'ci_low': np.float64(0.07857993759783762), 'ci_high': np.float64(0.12299129915966904), 'reference_n': 27528}
+no_education_no_prev_attempts {'analysis': 'no_education_no_prev_attempts', 'fit_n': 27528, 'active_days': 21, 'gap': np.float64(0.08845996212430474), 'ci_low': np.float64(0.0659728840669602), 'ci_high': np.float64(0.11094704018164928), 'reference_n': 27528}
+no_region {'analysis': 'no_region', 'fit_n': 27528, 'active_days': 21, 'gap': np.float64(0.08428343507512237), 'ci_low': np.float64(0.06212470619822366), 'ci_high': np.float64(0.10644216395202108), 'reference_n': 27528}
+Prediction columns: ['id_student', 'code_module', 'code_presentation', 'imd_group', 'presentation_type', 'risk', 'probability', 'week', 'block', 'model', 'split', 'threshold']
+Calibration [{'block': 'B', 'n': 15722, 'calibration_in_large': 0.05981064025787573, 'joint_intercept': -0.03555902374948372, 'slope': 0.6728397291815695, 'slope_ci_low': 0.6233310296005831, 'slope_ci_high': 0.722348428762556, 'Brier': 0.2357941972311552}, {'block': 'C', 'n': 15722, 'calibration_in_large': -0.012266505185841225, 'joint_intercept': -0.039373924906790966, 'slope': 0.8791540386349265, 'slope_ci_low': 0.8407418595322216, 'slope_ci_high': 0.9175662177376314, 'Brier': 0.20627332205197565}, {'block': 'D', 'n': 15722, 'calibration_in_large': -0.03299456428235993, 'joint_intercept': -0.05680145180455867, 'slope': 0.8819353705588915, 'slope_ci_low': 0.8434047658432052, 'slope_ci_high': 0.9204659752745777, 'Brier': 0.20621071643478303}]
+{
+  "python": "3.12.14",
+  "analysis_stage": "exploratory additions after independent audit, 22 October 2026",
+  "cohort_sha256": "d23e007186d9bcbd87c9a8366a193fc995fe8c7d69f425b42ac1748e4769b350",
+  "english_regions": [
+    "East Anglian Region",
+    "East Midlands Region",
+    "London Region",
+    "North Region",
+    "North Western Region",
+    "South East Region",
+    "South Region",
+    "South West Region",
+    "West Midlands Region",
+    "Yorkshire Region"
+  ],
+  "english_n": 21352,
+  "english_known_IMD_wald_p": 0.8895216592350922,
+  "missing_IMD_by_region": {
+    "North Region": 674,
+    "Ireland": 250,
+    "South Region": 44,
+    "West Midlands Region": 38,
+    "Scotland": 11,
+    "South West Region": 4,
+    "Yorkshire Region": 4,
+    "North Western Region": 3
+  },
+  "known_IMD_nonenglish_share": 0.2232075471698113,
+  "share_at_least_21_active_days": {
+    "0\u201330%": 0.1067754522880454,
+    "30\u201370%": 0.11441144114411442,
+    "70\u2013100%": 0.12487736510161178,
+    "Missing": 0.20622568093385213
+  },
+  "raw_date_outcome_disagreements": 1,
+  "registered_by_day0": {
+    "n": 32314,
+    "unadjusted_least_minus_most_gap": 0.15924849948570396
+  },
+  "model_formulas": {
+    "full": "success ~ C(imd_group)*active_proportion + C(gender)+C(age_band)+C(highest_education)+C(disability)+C(region)+num_of_prev_attempts+studied_credits+C(context)",
+    "context_only": "success ~ C(imd_group)*active_proportion + C(context)",
+    "no_education_no_prev_attempts": "success ~ C(imd_group)*active_proportion + C(gender)+C(age_band)+C(disability)+C(region)+studied_credits+C(context)",
+    "no_region": "success ~ C(imd_group)*active_proportion + C(gender)+C(age_band)+C(highest_education)+C(disability)+num_of_prev_attempts+studied_credits+C(context)"
+  }
+}
+.....................                                                    [100%]
+============================== warnings summary ===============================
+tests/test_scientific_corrections.py::ScientificCorrections::test_ale_uses_supported_profiles_and_coherent_derivatives
+  C:\Oulad\.venv\Lib\site-packages\shap\plots\colors\_colors.py:47: PendingDeprecationWarning: The set_bad function will be deprecated in a future version. Use cmap.with_extremes(bad=...) or Colormap(bad=...) instead.
+    red_blue.set_bad(gray_rgb.tolist(), 1.0)
+
+tests/test_scientific_corrections.py::ScientificCorrections::test_ale_uses_supported_profiles_and_coherent_derivatives
+  C:\Oulad\.venv\Lib\site-packages\shap\plots\colors\_colors.py:48: PendingDeprecationWarning: The set_over function will be deprecated in a future version. Use cmap.with_extremes(over=...) or Colormap(over=...) instead.
+    red_blue.set_over(gray_rgb.tolist(), 1.0)
+
+tests/test_scientific_corrections.py::ScientificCorrections::test_ale_uses_supported_profiles_and_coherent_derivatives
+  C:\Oulad\.venv\Lib\site-packages\shap\plots\colors\_colors.py:49: PendingDeprecationWarning: The set_under function will be deprecated in a future version. Use cmap.with_extremes(under=...) or Colormap(under=...) instead.
+    red_blue.set_under(gray_rgb.tolist(), 1.0)  # "under" is incorrectly used instead of "bad" in the scatter plot
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+21 passed, 3 warnings in 18.26s
+Requested steps and strict tests complete; see requested flags in reports/reproduction_status.json

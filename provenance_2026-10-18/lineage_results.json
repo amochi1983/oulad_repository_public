@@ -1,0 +1,27 @@
+{
+  "figshare_version": 1,
+  "figshare_versions": [
+    {
+      "version": 1,
+      "url": "https://api.figshare.com/v2/articles/5081998/versions/1"
+    }
+  ],
+  "official_archive_sha256": "90dda45037939953f979072fa70a809ebe07e90ec783c408762af7698a3825ec",
+  "local_archive_sha256": "90dda45037939953f979072fa70a809ebe07e90ec783c408762af7698a3825ec",
+  "official_archive_equals_local": true,
+  "wang_rebuilt_sha256": "445ffe40176b818b062c7f737c9bc1104701a57d1dd4bfe2d6556eface20b08d",
+  "wang_downloaded_sha256": "a45ae69625f70f16e0b9670e541efd4b771685a5e5bfee464bc2c518daaf2489",
+  "wang_byte_equal": false,
+  "raw_enrolments": 32593,
+  "raw_students": 28785,
+  "presentations": 22,
+  "years": [
+    "2013",
+    "2014"
+  ],
+  "missing_imd": 1111,
+  "missing_registration": 45,
+  "zero_clicks": 4707,
+  "eligible_n": 27528,
+  "eligible_students": 24835
+}

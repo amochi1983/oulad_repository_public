@@ -1,0 +1,7 @@
+# Preserve scientific/data bytes across platforms; code/docs use LF.
+* -text
+*.py text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+LICENSE text eol=lf
+Makefile text eol=lf

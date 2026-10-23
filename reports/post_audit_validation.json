@@ -1,0 +1,14 @@
+{
+  "tests_passed": 21,
+  "command": "python reproduce.py --post-audit",
+  "raw_sha256_verified": true,
+  "models_refit": [
+    "full",
+    "context_only",
+    "no_education_no_prev_attempts",
+    "no_region",
+    "english_regions_only"
+  ],
+  "test_predictions_recalibrated": false,
+  "full_historical_pipeline_rerun": false
+}
